@@ -1,0 +1,42 @@
+type Team {
+  id: ID!
+  name: String!
+  email: String!
+  assets: [Asset!]
+}
+
+type Asset {
+  id: ID!
+  teamId: ID!
+  serial: String!
+  model: String!
+  email: String!
+  notes: [Note!]
+}
+
+type Note {
+  id: ID!
+  assetId: ID!
+  message: String!
+  email: String!
+}
+
+type Query {
+  ping: String!
+  teams: [Team!]
+}
+
+type Mutation {
+  addTeam(name: String!, email: String!): Team!
+  deleteTeam(id: ID!): Team!
+
+  addAsset(teamId: ID!, serial: String!, model: String!, email: String!): Asset!
+  updateAsset(
+    assetId: ID!
+    serial: String
+    model: String
+    email: String
+  ): Asset!
+
+  addNote(assetId: ID!, message: String!, email: String!): Note
+}
