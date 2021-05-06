@@ -14,3 +14,5 @@ Supports following API operations:
 * Add a note to the asset
 * Update an asset
 * Delete a team
+
+See Wiki for sample screenshots.
