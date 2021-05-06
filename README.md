@@ -16,3 +16,10 @@ Supports following API operations:
 * Delete a team
 
 See Wiki for sample screenshots.
+
+## To Run
+
+```
+npm install
+node src/index.js
+```
