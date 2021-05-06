@@ -1,6 +1,6 @@
 # Simple Asset Tracking Server Using GraphQL
 
-This is a sample implementation of sendtorrk/sat_srv using GraphQL. It uses in-memory datastore.
+This is a sample implementation of [sendtorrk/sat_srv](https://github.com/sendtorrk/sat_srv) using GraphQL. It uses in-memory datastore.
 
 Powered by:
 
