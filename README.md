@@ -15,7 +15,7 @@ Supports following API operations:
 * Update an asset
 * Delete a team
 
-See Wiki for sample screenshots.
+See [Wiki](https://github.com/sendtorrk/sat_graphql/wiki) for screenshots.
 
 ## To Run
 
